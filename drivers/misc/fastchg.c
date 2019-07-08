@@ -1,7 +1,11 @@
 /*
  * Author: Chad Froebel <chadfroebel@gmail.com>
  *
+<<<<<<< HEAD
  * Port to cheeseburger: engstk <eng.stk@sapo.pt>
+=======
+ * Port to Thulium: engstk <eng.stk@sapo.pt>
+>>>>>>> 08cd834a3a10... drivers: power: Add fast charge
  *
  * This software is licensed under the terms of the GNU General Public
  * License version 2, as published by the Free Software Foundation, and
