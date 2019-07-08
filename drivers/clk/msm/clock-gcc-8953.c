@@ -166,7 +166,7 @@ static struct alpha_pll_clk gpll3_clk_src = {
 	.slew = true,
 	.config_ctl_val = 0x4001055b,
 	.c = {
-		.rate = 1300000000,
+		.rate = 1450000000,
 		.parent = &xo_clk_src.c,
 		.dbg_name = "gpll3_clk_src",
 		.ops = &clk_ops_dyna_alpha_pll,
@@ -388,6 +388,7 @@ static struct clk_freq_tbl ftbl_gfx3d_clk_src[] = {
 	F_MM( 510000000,    1020000000,               gpll3,    1,    0,     0),
 	F_MM( 560000000,    1120000000,               gpll3,    1,    0,     0),
 	F_MM( 650000000,    1300000000,               gpll3,    1,    0,     0),
+	F_MM( 725000000,    1450000000,               gpll3,    1,    0,     0),
 
 	F_END
 };
