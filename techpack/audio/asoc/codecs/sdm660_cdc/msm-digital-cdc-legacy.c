@@ -1416,11 +1416,13 @@ static ssize_t speaker_gain_store(struct kobject *kobj,
 	int input;
 
 	sscanf(buf, "%d", &input);
-
-	if (input >= 0 && input <= 6)
-		speaker_gain_val = sound_control_speaker_gain(input);
-	else
-		speaker_gain_val = sound_control_speaker_gain(6);
+	
+/*
+ *	if (input >= 0 && input <= 6)
+ *		speaker_gain_val = sound_control_speaker_gain(input);
+ *	else
+ *		speaker_gain_val = sound_control_speaker_gain(6);
+ */
 
 	return count;
 }
